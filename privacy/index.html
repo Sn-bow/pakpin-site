@@ -41,6 +41,7 @@
   </nav>
   <article id="ko" lang="ko" aria-labelledby="title-ko">
     <h1 id="title-ko">PakPin 개인정보처리방침</h1>
+    <p class="version-scope"><strong>적용 대상: 0.4.3 / versionCode 21 비공개 테스트. 아래 내용은 해당 버전에 적용되며, 실제 설치 가능 여부는 Google Play 처리 상태와 테스트 참여 자격에 따릅니다. 비공개 테스트는 일반 출시를 뜻하지 않습니다. 이전 버전 안내는 접힌 기록에 보존합니다.</strong></p>
     <p>시행일: 2026년 10월 17일 (한국 표준시)</p>
     <p>운영자: Log_Ian<br>
 앱: PakPin<br>
@@ -48,6 +49,17 @@
     <p>이 방침은 PakPin Android 앱, 지원 이메일 및 GitHub Pages에 게시된 개인정보처리방침 웹페이지에 적용됩니다.</p>
     <p>PakPin(com.logian.pakpin.puzzle)은 기존 PakPin(com.logian.pakpin)과 별도로 설치되는 앱입니다. 기존 앱의 게임 기록, 설정 및 기기에 저장된 광고 제거 권리는 새 앱으로 이전되거나 승계되지 않습니다. 기존 앱과 이전 버전에 관한 개인정보처리방침 및 기존 권리 관련 설명은 해당 앱·버전에 대한 안내로 보존됩니다.</p>
     <h2>1. 앱 이용</h2>
+    <p>이 비공개 테스트 버전(internalPreview)은 고정된 Google 테스트 광고 단위만 사용하도록 구성되어 있으며 운영 광고 단위는 요청하지 않습니다. 테스트 광고 확인은 실제 광고 수익이나 AdMob 실광고 제공 준비 완료의 증거가 아닙니다. 광고 요청·표시는 아래 조건과 테스트 광고 제공 여부에 따릅니다.</p>
+    <p>이 버전은 연령 질문이나 광고 형식별 사전 설정 없이 광고로 무료 플레이를 지원합니다. 모든 광고 요청에 아동 대상 처리·G 등급 콘텐츠 제한·비맞춤형 설정을 적용합니다. 이는 이용자의 나이를 새로 판단하거나 Google 개인정보 동의를 대신하는 것이 아닙니다. 기존에 저장된 미성년 정보와 Google UMP의 개인정보 선택 및 요청 허용 여부를 유지·확인합니다. 필요한 Google 개인정보 선택은 별도로 표시하며, 이용 가능한 개인정보 옵션은 설정에서 열 수 있습니다. 동의 거절 뒤에도 Google이 허용하는 제한된 광고가 표시될 수 있으며, 제한된 광고도 IP 정보·캐시·설정에 따른 부정 이용 방지 저장소 등 데이터 처리를 수반할 수 있습니다.</p>
+    <p>배너는 첫 실행의 홈부터 단계 선택·게임·완료·설정 등 주요 화면 하단의 별도 공간에 표시될 수 있으며 21단계부터 시작하는 기능이 아닙니다. 기존 광고 제거 권리, 권리 미확인, 개인정보 조건, 1시간 광고 중단, 광고 제공 여부에 따라 표시되지 않을 수 있습니다. 모달 창·키보드·백그라운드·안전한 공간이 부족한 작은 화면에서는 배너를 숨깁니다. 기존 광고 OFF·거절·손상되거나 모호한 기록은 자동으로 되돌리지 않습니다. 해당 이용자는 화면 하단이나 설정의 배너 다시 켜기를 직접 선택할 수 있습니다. 이 선택은 배너만 재개하며 Google 동의나 보상 지급, 기존 전면 광고 차단 해제를 뜻하지 않습니다.</p>
+    <p>보상형 광고는 힌트 또는 1시간 광고 중단 화면에서 시청 버튼을 직접 누른 경우에만 요청합니다. 별도의 영구 보상광고 설정은 필요하지 않습니다. 버튼을 누르기만 하거나 광고를 닫는 것으로 보상이 생기지 않으며 SDK의 보상 획득 콜백이 확인되어야 합니다. 광고를 보지 않아도 200개 단계와 진행 기록은 무료로 이용할 수 있고 되돌리기·재시작은 광고를 요구하지 않습니다.</p>
+    <p>전면 광고 기회는 25·30·35…단계를 새로 클리어한 뒤 다음 단계 버튼을 누를 때만 생기며, 최소 4분 간격·하루 최대 6회입니다. 준비되지 않은 광고는 다음 단계로 미루지 않습니다. 보상을 획득한 직후 이어지는 전면 광고 기회는 건너뜁니다. 마지막 200단계 후 다음 단계가 없으면 전면 광고도 없습니다. 앱 재개만으로 전면 광고를 요청하거나 표시하지 않습니다.</p>
+    <p>단계 진행이나 새로운 연령 응답과 관계없이, 광고 요청 조건을 충족하면 홈 또는 설정에서 보상형 광고 시청을 선택해 배너·전면 광고를 1시간 중단할 수 있습니다. 시간은 SDK 보상 콜백부터 흐르며 앱을 닫아도 계속됩니다. 보상 전 닫기·오류·광고 없음은 시간을 지급하지 않습니다. 중단 중에는 추가 중단 보상을 받거나 시간을 누적·연장할 수 없습니다. 만료 뒤에는 일반 광고 조건을 다시 적용합니다. 이 중단은 무제한 힌트 권리가 아니며 힌트 광고나 무료 힌트 한도를 없애지 않습니다. 힌트 보상도 중단 시간을 추가·연장하지 않습니다.</p>
+    <p>1~20단계는 한 수 힌트를 무제한 무료로 제공합니다. 21~200단계는 단계마다 서로 다른 한 수 힌트 2개가 무료입니다. 이후 광고 대상 이용자는 보상형 광고 1개 시청을 선택할 수 있으며, 보상을 획득하면 현재 단계의 한 수 힌트가 영구적으로 무제한 해제됩니다. 다른 단계는 해제되지 않습니다. 광고를 보지 않거나 광고를 이용할 수 없어도 계속 플레이할 수 있습니다. 광고를 닫거나 광고가 준비되지 않아 보상을 획득하지 못하면 해당 광고의 힌트 해제 보상은 지급되지 않습니다.</p>
+    <p>Google Mobile Ads SDK는 광고·분석·부정사용 방지를 위해 IP 주소, 앱 실행·탭·광고 시청 등의 상호작용, 진단 정보와 기기 또는 계정 식별자를 자동으로 수집·공유할 수 있습니다. IP 주소로 기기의 대략적인 위치를 추정할 수 있습니다. 이 빌드는 AD_ID 권한을 제외하지만 모든 식별자 처리가 제거된다는 뜻은 아닙니다. SDK 포함과 광고 요청은 구분됩니다.  UMP는 이용 가능한 개인정보 선택을 확인·표시하기 위해 Google과 통신할 수 있습니다. 링크된 Google 데이터 안내는 SDK 25.5.0을 설명하며, 이 앱은 SDK 25.4.0을 사용합니다. 이 설명은 제공자 안내와 앱 구성에 근거하며 모든 네트워크 전송을 실측한 결과는 아닙니다. (https://developers.google.com/admob/android/privacy/play-data-disclosure)</p>
+    <p>이 버전에는 신규 결제나 구매 복원 흐름이 없으며 Google Play에 구매 조회·검증·복원을 요청하지 않습니다. 기기에 저장된 검증된 기존 광고 제거 권리가 있는 이용자는 배너·전면·보상형 광고 전체 제거와 모든 단계의 무제한 한 수 힌트를 계속 이용합니다. 이전 버전에서 저장한 구매 토큰·서명된 구매 내역·권리·처리 상태는 기존 기기 내 원장에 남아 있을 수 있습니다. 이 업데이트는 기존 원장이나 게임 진행 기록을 지우지 않으며, 해당 원장을 결제 서비스로 전송하지 않습니다. 기존 권리는 로컬 기록만으로 확인하며 온라인 재검증은 하지 않습니다. 앱 데이터 삭제나 재설치로 로컬 권리 기록이 사라지면 이 버전에서 Google Play를 통한 복원은 제공하지 않습니다.</p>
+    <details>
+      <summary>이전 버전(0.4.2 / versionCode 20 및 이전) 안내</summary>
     <p>퍼즐 200단계, 실행 취소(Undo), 초기화, 단계 이동과 게임 기록은 무료입니다. 광고 시청이나 구매 없이 계속 플레이할 수 있습니다. 기본 힌트 수와 선택형 보상은 아래의 설치 버전별 규칙을 따릅니다. 게임 진행과 설정은 기기에 저장하며, 개발자가 운영하는 게임 계정·로그인·게임 서버는 없습니다.</p>
     <p>이 방침은 v15 및 이전 버전, v16, 이전 보호된 배너 업데이트, 그리고 기본 힌트 2개·선택형 보호 보상 광고 업데이트(0.4.2 / versionCode 20)를 구분합니다. 아래의 새 힌트 수와 연령 미확인 이용자용 선택형 힌트 보상 광고는 해당 업데이트를 설치한 경우에만 적용됩니다. 이전 버전의 보호된 배너 허용은 새 보상 광고 선택을 대신하지 않습니다. 신규 인앱결제·Google Play Billing 제거는 유지됩니다. 실제 광고 이용 가능 여부는 설치 버전·배포 설정·아래 조건에 따르며, 방침 게시나 내부 테스트 제공 자체가 일반 출시를 뜻하지 않습니다.</p>
     <p>현재 준비된 0.4.2 / versionCode 20 내부 테스트 빌드(internalPreview)는 고정된 Google 테스트 광고 단위만 요청하도록 구성되어 있으며 운영 광고 단위는 요청하지 않습니다. 실제 요청·표시는 아래 조건과 테스트 광고 제공 여부에 따릅니다.</p>
@@ -63,7 +75,13 @@
     <p>Google Mobile Ads와 UMP 등 Google 서비스는 광고 제공·개인정보 선택 확인·분석·부정사용 방지 등을 위해 정보를 처리할 수 있습니다. Google Mobile Ads의 공식 안내에는 IP 주소(대략적인 위치 추정에 이용될 수 있음), 앱·광고 상호작용, 진단 정보, 기기 또는 계정 식별자의 자동 수집·공유가 포함됩니다. 앱은 맞춤형 광고를 요청하지 않으며 비개인화 광고(NPA)를 요청하도록 설정합니다. 새 정책 이용자가 Google 개인정보 선택을 거부·철회하더라도 선택·SDK 판단·앱 조건에 따라 제한적 광고(LTD)가 허용될 수 있어 모든 광고의 영구 제거를 뜻하지는 않습니다. 실제 광고 제공 방식은 해당 조건에 따릅니다. NPA나 LTD도 IP 처리 등 데이터 처리를 수반할 수 있고, LTD는 설정에 따라 부정사용 방지 저장소를 사용할 수 있습니다. UMP의 광고 요청 가능 신호는 모든 목적·업체 동의나 실제 LTD 제공의 증거가 아닙니다. 자세한 내용은 <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDK 데이터 안내</a>와 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요. UMP는 적용되는 개인정보 선택을 확인·표시하기 위해 Google과 통신할 수 있습니다.</p>
     <p>v16의 광고·동의 기능에는 Google Mobile Ads와 UMP를 사용하며 Google Play Billing은 포함하지 않습니다. Google Play 서비스의 AD_ID 권한을 제외하도록 구성되어 있어도 모든 식별자나 SDK 데이터 처리가 없어지는 것은 아닙니다. 위 설명은 공급자의 안내와 앱 구성에 근거하며 모든 네트워크 전송을 별도로 실측·인증한 결과가 아닙니다. 앱이 광고를 요청하지 않는 상태나 연령 확인 전 상태가 SDK 초기화·Google 서비스의 자동 처리 등 모든 외부 통신의 부재를 보장하지는 않습니다.</p>
     <p>v15 및 이전 Google Play Billing 포함 버전에만 적용되는 처리: Google Play 구매 확인·복원·승인에는 상품 식별자, 구매 토큰, 권리 및 처리 상태 등 필요한 정보가 사용됩니다. 구매 승인에 필요한 구매 토큰은 Google Play에 전달될 수 있습니다. 구매 토큰·서명된 구매 자료·권리·처리 상태는 확인과 복원을 위해 기기 내 원장에도 저장됩니다. 개발자는 카드 번호나 결제 비밀번호를 받지 않습니다. 기존 구매 권리 조회와 처리는 광고·신규 판매가 꺼져 있어도 앱 시작·복귀 및 확인·복원 과정에서 실행될 수 있습니다. 앱 재설치·계정 변경·환불 후 확인에는 Google Play 연결이 필요할 수 있고 오프라인에서는 취소 확인이 지연될 수 있습니다.</p>
+    </details>
     <h2>2. 기기에 저장되는 정보</h2>
+    <p>게임 진행 상태, 완료·점수 기록, 이전 퍼즐 기록, 단계별 무료 힌트 사용 기록과 보상으로 해제한 단계, 언어·소리·진동·모션 설정은 게임을 이어가고 설정을 유지하기 위해 기기 내 앱 저장소에 저장됩니다. 운영자는 이 정보를 원격으로 열람하거나 삭제할 수 없습니다.</p>
+    <p>현재 Android 앱은 앱 데이터의 자동 클라우드 백업과 기기 간 전송을 제외하도록 설정되어 있습니다. 기록과 설정을 삭제하려면 Android 설정에서 PakPin의 앱 데이터를 지우거나 앱을 삭제할 수 있습니다. 메뉴와 동작은 기기·운영체제에 따라 다를 수 있습니다. 삭제한 기록의 복구는 제공하지 않습니다. 게임판의 ‘초기화’는 모든 저장 데이터 삭제와 다른 기능입니다.</p>
+    <p>기기에는 기존 연령·광고 선택 기록, 배너 재개 선택, 광고 빈도 기록, 광고 중단 만료 시각, 검증된 기존 광고 제거 권리를 보관할 수 있습니다. 이 버전은 나이·생년월일을 새로 묻지 않고 기존 개인정보 선택을 지우거나 동의로 바꾸지 않습니다. 별도의 보상광고 상시 허용 선택을 새로 저장하지 않습니다. Google 개인정보 옵션은 제공되는 경우 설정에서 열 수 있습니다. Google의 보관·삭제·국외 처리에는 Google 개인정보처리방침이 적용되며, 앱은 Google의 보관 기간이나 처리 국가를 별도로 보장하지 않습니다.</p>
+    <details>
+      <summary>이전 버전(0.4.2 / versionCode 20 및 이전) 안내</summary>
     <p>게임 진행 상태, 완료·점수 기록, 이전 퍼즐 기록과 언어·소리·진동·모션 설정은 게임을 이어가고 설정을 유지하기 위해 기기 내 앱 저장소에 저장됩니다. 운영자는 이 정보를 원격으로 열람하거나 삭제할 수 없습니다.</p>
     <p>현재 Android 앱은 앱 데이터의 자동 클라우드 백업과 기기 간 전송을 제외하도록 설정되어 있습니다. 기록과 설정을 삭제하려면 Android 설정에서 PakPin의 앱 데이터를 지우거나 앱을 삭제할 수 있습니다. 메뉴와 동작은 기기·운영체제에 따라 다를 수 있습니다. 삭제한 기록의 복구는 제공하지 않습니다. 게임판의 ‘초기화’는 모든 저장 데이터 삭제와 다른 기능입니다.</p>
     <p>v16에서는 연령 구분(18세 이상·18세 미만·미확인), 적용되는 광고 정책 구분과 안내 확인 상태, 기존 정책의 광고 허용과 버전, 광고 빈도 기록, 기존 구매 권리·보호 기록도 기기에 보존합니다. 입력한 정확한 나이·생년월일은 저장하지 않습니다. 설정에서 연령 구분을 변경할 수 있습니다. 기존 정책 이용자는 앱의 광고 허용을 켜거나 끌 수 있고, 새 정책 이용자는 광고 지원 안내를 다시 볼 수 있습니다. Google에서 개인정보 옵션 제공이 필요하다고 알리는 경우 설정에서 해당 선택 화면을 다시 열 수 있습니다. Google 선택 화면을 열 때 기존 광고는 폐기하고 이후 필요한 조건을 다시 확인합니다. 개인정보 선택의 철회는 이미 처리된 데이터의 자동 삭제를 뜻하지 않습니다. Google 자체 보관·삭제·국외 처리에는 Google 정책이 적용됩니다. 기기에 남아 있는 기존 선택 기록을 보호합니다. 앱 데이터 삭제·재설치 등으로 해당 기록이 사라지면 이전 선택을 확인할 수 없으며 연령 및 개인정보 선택을 다시 확인할 수 있습니다. v16은 Google Play 구매 확인·복원을 제공하지 않으며, 앱 데이터 삭제 후 남은 광고 중지 시간이나 기존 권리의 자동 복원을 보장하지 않습니다.</p>
@@ -73,6 +91,7 @@
     <p>광고 이용 조건을 충족하는 성인 이용자는 선택한 보상형 광고의 보상을 받은 시점부터 1시간 동안 배너·자동 전면광고를 중지할 수 있습니다. 보상 확인과 시간 계산을 위해 로컬 보상 식별값, 보상을 받은 시각, 만료 시각, 마지막 확인 시각, 남은 시간 상한을 기기에 저장합니다. 로컬 보상 식별값은 광고 기기 식별자가 아닙니다. 앱을 닫아도 시간이 진행되며, 활성 중인 시간의 누적·연장은 제공하지 않습니다. 힌트용 보상형 광고는 별도로 유지됩니다. 중지 기능은 광고 SDK와 관련 서비스의 모든 데이터 처리를 중단한다는 뜻이 아닙니다.</p>
     <p>이 업데이트는 이미 획득하여 유효한 광고 중지 권리를 원래 만료 시각까지 보존합니다. 연령 미확인 또는 18세 미만 상태에서는 새 1시간 중지 보상 광고를 제공하지 않습니다. 힌트 보상은 중지 시간을 추가·연장하지 않으며, 광고 중지 자체도 추가 힌트를 해제하지 않습니다.</p>
     <p>기기 시계가 뒤로 변경되면 남은 광고 중지 시간이 조기 종료될 수 있습니다.</p>
+    </details>
     <h2>3. 자발적으로 보내는 지원 이메일</h2>
     <p>문의는 <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>으로 보낼 수 있습니다. 이메일을 보내면 회신 주소, 표시 이름, 메시지 내용 및 직접 첨부한 파일이 전달됩니다. 이 정보는 문의 확인·답변·문제 해결에 사용합니다. 이메일을 보내지 않아도 게임을 이용할 수 있습니다.</p>
     <p>지원 이메일은 Gmail을 통해 수신·보관되므로 Google이 메일 전송·저장 과정에서 정보를 처리합니다. 관련 사항은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>을 참고하세요.</p>
@@ -82,7 +101,11 @@
     <p>이 웹페이지는 GitHub Pages에서 제공합니다. GitHub는 로그인 여부와 무관하게 방문자의 IP 주소를 보안 목적으로 기록·보관합니다. 자세한 사항은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 참고하세요.</p>
     <p>웹페이지 방문 시의 GitHub 처리는 앱의 게임 저장 기능 및 Google 광고·동의 기능의 처리와 구분됩니다.</p>
     <h2>5. 아동의 이용</h2>
+    <p>어린이도 모든 단계와 기본 무료 힌트를 이용할 수 있습니다. 이 버전은 연령 질문을 표시하지 않으며 모든 광고에 보호 설정을 적용하고, 이전에 알려진 미성년 정보는 Google UMP 처리에 유지합니다. 보호 설정이 데이터 처리 없음이나 모든 지역의 동의 면제를 뜻하지는 않습니다. 무료 힌트는 1~20단계 무제한, 21~200단계 단계별 2개이며 선택형 보상은 제1절과 같습니다. 이름·이메일·생년월일을 요구하지 않습니다. 어린이의 지원 문의는 보호자가 보내고 불필요한 어린이 정보의 삭제를 요청할 수 있습니다.</p>
+    <details>
+      <summary>이전 버전(0.4.2 / versionCode 20 및 이전) 안내</summary>
     <p>어린이도 모든 퍼즐을 무료로 플레이할 수 있습니다. 1~20단계 힌트는 무제한이며, 21~200단계는 1항의 단계별 기본 힌트 2개 규칙을 따릅니다. 만 18세 미만으로 확인된 이용자에게는 광고를 요청하거나 표시하지 않습니다. 연령 미확인 이용자는 미확인 상태를 유지하면서 1항의 서로 독립된 보호된 배너·선택형 힌트 보상 광고 조건을 충족한 경우에만 해당 형식의 대상이 될 수 있습니다. 자동 전면 광고와 1시간 중지용 보상 광고는 제공하지 않습니다. 이름·이메일·생년월일은 필수가 아니며 연령 확인에 답하지 않아도 게임을 이용할 수 있습니다. 광고를 위해 성인 연령 선택이나 개인정보 동의 변경을 강제하지 않습니다. SDK 초기화·외부 통신과 보호 설정의 한계는 1항을 확인하세요. 아동의 지원 문의는 보호자가 대신 보내고 불필요한 아동 개인정보가 포함되었다면 삭제를 요청해 주세요.</p>
+    </details>
     <h2>6. 정보 보호와 요청</h2>
     <p>기기에 저장된 게임 기록은 기기의 앱 저장소에서 처리됩니다. 기기 잠금과 접근 권한을 안전하게 관리해 주세요. 지원 문의에는 비밀번호, 결제정보, 신분증 또는 문제 해결에 불필요한 민감정보를 보내지 마세요.</p>
     <p>지원 문의에 포함된 개인정보의 열람·수정·삭제 등 요청은 <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>으로 보낼 수 있습니다. 요청 처리에 필요한 최소한의 확인 후 적용되는 법령에 따라 처리합니다. 기기에만 저장된 게임 기록은 위 2항의 방법으로 직접 관리할 수 있습니다.</p>
@@ -94,6 +117,7 @@
   </article>
   <article id="en" lang="en" aria-labelledby="title-en">
     <h1 id="title-en">PakPin Privacy Policy</h1>
+    <p class="version-scope"><strong>Applies to: 0.4.3 / versionCode 21 closed testing. The information below applies to that version. Installation availability depends on Google Play processing and tester eligibility. Closed testing does not mean a public release. Earlier-version information is retained in the collapsed history.</strong></p>
     <p>Effective date: October 17, 2026 (Korea Standard Time)</p>
     <p>Operator: Log_Ian<br>
 App: PakPin<br>
@@ -101,6 +125,17 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>This policy covers the PakPin Android app, support email, and this privacy policy webpage hosted on GitHub Pages.</p>
     <p>PakPin (com.logian.pakpin.puzzle) is installed separately from the existing PakPin app (com.logian.pakpin). Game records, settings and ad-removal rights stored on the device for the existing app are not transferred to or inherited by the new app. Privacy policies and explanations of existing rights for the existing app and earlier versions are retained as information applying to those apps and versions.</p>
     <h2>1. Using the app</h2>
+    <p>This closed-test version (internalPreview) is configured to use only fixed Google test ad units and does not request production ad units. Testing these ads is not evidence of advertising revenue or readiness to serve live AdMob ads. Requests and display remain subject to the conditions below and test-ad availability.</p>
+    <p>This version supports free play with ads without an age questionnaire or a separate ad-format setup. Every ad request uses child-directed treatment, a G content limit and non-personalized settings. These settings do not determine a user’s age or replace Google privacy consent. Previously known under-age information and Google UMP privacy choices and request eligibility are preserved and checked. Required Google privacy choices are handled separately; available privacy options can be opened in Settings. Google-permitted limited ads may still be available after consent is declined. Limited ads can involve IP information, caching and fraud-prevention storage depending on configuration; they are not data-free.</p>
+    <p>Banners may appear in dedicated bottom space from the first Home screen, including stage selection, gameplay, completion and Settings, rather than starting at stage 21. Legacy ad-removal rights, unknown rights, privacy requirements, a one-hour ad pause and inventory availability can prevent display. Banners are hidden for modal UI, the keyboard, background state or insufficient safe space. Historical ad-OFF, declined, corrupt or ambiguous records are not automatically reversed. Affected users can explicitly choose Resume banners at the bottom or in Settings. This resumes banners only; it does not grant Google consent, grant a reward or remove a historical interstitial block.</p>
+    <p>Rewarded ads are requested only after the user directly chooses Watch in the hint or one-hour pause screen. No separate persistent rewarded-ad setup is required. A tap or dismissal alone does not grant a reward: the SDK earned-reward callback must confirm it. All 200 stages and progress remain free to play without watching an ad; undo and restart do not require ads.</p>
+    <p>An interstitial opportunity occurs only after a new clear of stage 25, 30, 35 and so on, followed by choosing Next stage, with at least four minutes between attempts and a maximum of six per day. Unready ads are not deferred to another stage. The next interstitial opportunity after earning a reward is skipped. There is no interstitial after the final stage 200 when no next stage exists. Resuming the app alone never requests or shows an interstitial.</p>
+    <p>If ad-request conditions are met, users can choose a rewarded ad from Home or Settings to pause banners and interstitials for one hour, without a stage-progress or new age-answer requirement. The hour starts with the SDK reward callback and continues while the app is closed. Closing before earning, errors and unavailable ads grant no time. An active pause cannot be stacked or extended with another pause reward. Normal ad conditions apply after expiry. This pause is not an unlimited-hint entitlement and does not remove hint ads or the free-hint quota. Hint rewards do not add or extend pause time.</p>
+    <p>Stages 1–20 include unlimited free one-move hints. Stages 21–200 include two distinct free one-move hints per stage. After those, eligible users can choose to watch one rewarded ad. Earning its reward permanently unlocks unlimited one-move hints for the current stage only, not other stages. You can keep playing without watching an ad or when an ad is unavailable. Closing an ad before earning its reward, or an unavailable ad, does not grant that ad’s hint unlock reward.</p>
+    <p>Google Mobile Ads SDK may automatically collect and share IP addresses, interactions such as opening the app, taps and ad viewing, diagnostics, and device or account identifiers for advertising, analytics and fraud prevention. An IP address may be used to estimate the device’s approximate location. This build removes AD_ID permission, which does not remove every identifier. SDK inclusion is different from requesting ads. Protective ad settings do not guarantee that all external communication, including native SDK startup, is blocked. UMP may communicate with Google to check and display available privacy choices. The linked Google data disclosure describes SDK 25.5.0; this app uses SDK 25.4.0. These descriptions are based on provider documentation and the app configuration, not measurement of every network transmission. (https://developers.google.com/admob/android/privacy/play-data-disclosure)</p>
+    <p>This version has no new-payment or purchase-restoration flow and does not request purchase queries, verification or restoration from Google Play. Users with previously verified ad-removal rights saved on the device retain removal of all banner, interstitial and rewarded ads and unlimited one-move hints in every stage. Purchase tokens, signed receipts, rights and processing state stored by earlier versions may remain in the existing local ledger. This update does not clear that ledger or game progress and does not transmit the ledger to a billing service. Legacy rights are read from local records only, without online re-verification. If app-data deletion or reinstallation removes those local rights, this version does not offer restoration through Google Play.</p>
+    <details>
+      <summary>Earlier versions (0.4.2 / versionCode 20 and earlier)</summary>
     <p>All 200 puzzles, Undo, resets, stage navigation and game records are free. You can keep playing without watching ads or making a purchase. Base hints and optional rewards follow the installed-version rules below. Progress and settings are stored on your device; the developer operates no game account, app login or game server.</p>
     <p>This policy distinguishes v15 and earlier versions, v16, the earlier protected-banner update, and the two-base-hints and optional protected rewarded-ad update (0.4.2 / versionCode 20). The new hint quota and optional unknown-age hint rewarded ads below apply only when that update is installed. Earlier protected-banner permission does not replace the new rewarded-ad choice. The removal of new in-app purchases and Google Play Billing remains in place. Availability depends on the installed version, release configuration and conditions below. Publishing this policy or providing an internal test does not itself mean a general release.</p>
     <p>The currently prepared 0.4.2 / versionCode 20 internal test build (internalPreview) is configured to request only fixed Google test ad units, not production ad units. Requests and display remain subject to the conditions below and test-ad availability.</p>
@@ -116,7 +151,13 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>Google services, including Google Mobile Ads and UMP, may process information for advertising, privacy-choice checks, analytics and fraud prevention. Google Mobile Ads’ official disclosure includes automatic collection and sharing of IP addresses (which may be used to estimate approximate location), app and ad interactions, diagnostics, and device or account identifiers. The app does not request personalized ads and is configured to request non-personalized ads (NPA). For users under the new policy, declining or withdrawing Google privacy choices may still allow limited ads (LTD), depending on their choices, SDK decisions and app conditions; it does not permanently remove all ads. Actual ad serving depends on these conditions. NPA and LTD may still involve data processing such as IP processing, and LTD may use fraud-prevention storage depending on its configuration. UMP’s can-request-ads signal does not prove consent for every purpose or vendor, or that LTD was actually served. See the <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDK data disclosure</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. UMP may communicate with Google to check and display applicable privacy choices.</p>
     <p>In v16, advertising and consent features use Google Mobile Ads and UMP; Google Play Billing is not included. The app is configured to exclude the Google Play services AD_ID permission, but this does not remove every identifier or all SDK data processing. These descriptions rely on provider guidance and app configuration, not separate measurement or certification of every network transmission. The absence of app-requested ads, or the period before age classification, does not guarantee the absence of all external communication, including SDK initialization and automatic Google-service processing.</p>
     <p>Processing applicable only to v15 and earlier versions containing Google Play Billing: Google Play purchase checks, restoration and acknowledgement use necessary information such as product identifiers, purchase tokens, rights and processing status. A purchase token needed for acknowledgement may be sent to Google Play. Purchase tokens, signed purchase data, rights and processing status are also stored in an on-device ledger for verification and restoration. The developer does not receive card numbers or payment passwords. Existing-purchase queries and processing may run at app startup or resume and during verification or restoration even when ads and new sales are disabled. A Google Play connection may be needed after reinstalling, changing accounts or receiving a refund; revocation checks may be delayed while offline.</p>
+    </details>
     <h2>2. Information stored on your device</h2>
+    <p>Game progress, completion and score records, earlier puzzle records, per-stage free-hint usage and rewarded stage unlocks, and language, sound, vibration, and motion settings are stored in the app&#x27;s local storage so you can continue playing and keep your settings. The operator cannot access or delete this information remotely.</p>
+    <p>The current Android app is configured to exclude app data from automatic cloud backup and device-to-device transfer. To remove records and settings, you can clear PakPin&#x27;s app data in Android settings or uninstall the app. Menus and behavior may vary by device and operating system. Recovery of deleted records is not provided. Resetting a game board is different from deleting all stored app data.</p>
+    <p>The device may retain historical age and ad-choice records, the banner-resume choice, ad-frequency records, pause expiry and verified legacy ad-removal rights. This version does not newly ask for age or birth date, erase existing privacy choices or convert them into consent. It does not save a separate permanent rewarded-ad opt-in. Google privacy options are available in Settings when provided. Google’s retention, deletion and international processing follow its privacy policy; the app does not independently guarantee Google’s retention periods or processing countries.</p>
+    <details>
+      <summary>Earlier versions (0.4.2 / versionCode 20 and earlier)</summary>
     <p>Game progress, completion and score records, earlier puzzle records, and language, sound, vibration, and motion settings are stored in the app&#x27;s local storage so you can continue playing and keep your settings. The operator cannot access or delete this information remotely.</p>
     <p>The current Android app is configured to exclude app data from automatic cloud backup and device-to-device transfer. To remove records and settings, you can clear PakPin&#x27;s app data in Android settings or uninstall the app. Menus and behavior may vary by device and operating system. Recovery of deleted records is not provided. Resetting a game board is different from deleting all stored app data.</p>
     <p>Version 16 also stores the age category (18 or older, under 18, or unknown), the applicable ad-policy group and explanation acknowledgment, legacy ad permission and version, frequency records, and preserves earlier purchase-rights and protection records locally. The exact entered age and date of birth are not stored. Settings let you change your age category. Legacy-policy users can turn the app’s ad permission on or off; new-policy users can review the ad-support explanation. When Google indicates that privacy options are required, you can reopen those choices from Settings. Opening Google choices discards cached ads and requires the relevant conditions to be checked again. Withdrawal does not automatically erase data already processed. Google’s policies govern its own retention, deletion and international processing. Existing choice records that remain on your device are protected. If those records are lost, for example after clearing app data or reinstalling, previous choices cannot be identified and age and privacy choices may be checked again. Version 16 does not check or restore Google Play purchases and does not guarantee automatic restoration of a remaining ad pause or earlier rights after app data is cleared.</p>
@@ -126,6 +167,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>Ad-eligible adult users may choose to earn a rewarded-ad benefit that pauses banner and automatic interstitial ads for one hour from the reward time. A local reward identifier, reward time, expiry time, last-observed time and remaining-time cap are stored on the device to track the reward and its duration. The local reward identifier is not an advertising device identifier. Time continues while the app is closed, and an active pause cannot be stacked or extended. Rewarded hint ads remain separate. This pause does not mean that all processing by advertising SDKs and related services stops.</p>
     <p>This update preserves an already earned, active ad-pause entitlement until its original expiry. Users of unknown age or under 18 are not offered a new one-hour pause rewarded ad. Hint rewards do not add or extend pause time, and an ad pause does not itself unlock extra hints.</p>
     <p>Moving the device clock backwards may end the remaining ad pause early.</p>
+    </details>
     <h2>3. Support email you choose to send</h2>
     <p>You can contact <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>. If you send an email, your reply address, display name, message, and any files you attach are received and used to review and respond to your inquiry and resolve the issue. You can play without sending an email.</p>
     <p>Support emails are received and stored through Gmail, so Google processes information when transmitting and storing the email. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
@@ -135,7 +177,11 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>This webpage is hosted on GitHub Pages. GitHub records and stores visitors&#x27; IP addresses for security, including when they are not signed in. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
     <p>GitHub’s processing when you visit this page is separate from local game storage and the app’s Google advertising and consent functions.</p>
     <h2>5. Children</h2>
+    <p>Children can use all stages and the basic free hints. This version shows no age questionnaire, applies protective settings to all ads, and preserves previously known under-age information for Google UMP handling. Protective settings do not mean no data processing or an exemption from consent in every region. Stages 1–20 have unlimited free hints and stages 21–200 have two per stage; optional rewards are described in section 1. No name, email or birth date is required. A guardian should send support requests for children and may request deletion of unnecessary child information.</p>
+    <details>
+      <summary>Earlier versions (0.4.2 / versionCode 20 and earlier)</summary>
     <p>Children can play all puzzles for free. Stages 1–20 have unlimited hints; stages 21–200 follow section 1’s two-base-hints-per-stage rule. The app does not request or show ads to users known to be under 18. Unknown-age users remain unknown and can qualify only for a format whose independent protected-banner or optional hint rewarded-ad conditions in section 1 are satisfied. Automatic interstitials and one-hour pause rewarded ads are not offered to them. Names, email addresses and dates of birth are not required, and answering the age check is optional. Users are not required to select adult age or change privacy consent to obtain gameplay. See section 1 for SDK startup, external communication and the limits of protective settings. A parent or guardian should send support requests for a child and can request deletion of unnecessary child information.</p>
+    </details>
     <h2>6. Protecting information and making requests</h2>
     <p>Local game records are processed in your device&#x27;s app storage. Please protect your device with appropriate locks and access controls. Do not send passwords, payment details, identity documents, or sensitive information unnecessary for resolving your inquiry.</p>
     <p>To request access, correction, deletion, or other action concerning personal information in a support inquiry, email <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>. Requests are handled under applicable law after the minimum verification needed to process them. You can manage game records stored only on your device as described in section 2.</p>
@@ -147,6 +193,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
   </article>
   <article id="ja" lang="ja" aria-labelledby="title-ja">
     <h1 id="title-ja">PakPin プライバシーポリシー</h1>
+    <p class="version-scope"><strong>対象：0.4.3 / versionCode 21のクローズドテスト。以下の内容はこのバージョンに適用されます。実際にインストールできるかは、Google Playの処理状況とテスターの参加資格によって異なります。クローズドテストは一般公開を意味しません。以前のバージョンの案内は折りたたんだ履歴に保管します。</strong></p>
     <p>施行日：2026年10月17日（韓国標準時）</p>
     <p>運営者：Log_Ian<br>
 アプリ：PakPin<br>
@@ -154,6 +201,17 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本ポリシーは、PakPin Androidアプリ、サポートメール、およびGitHub Pagesで公開する本プライバシーポリシーのウェブページに適用されます。</p>
     <p>PakPin（com.logian.pakpin.puzzle）は、既存のPakPin（com.logian.pakpin）とは別にインストールされるアプリです。既存アプリのゲーム記録、設定、および端末に保存された広告削除の権利は、新しいアプリには移行・引き継ぎされません。既存アプリと過去のバージョンに関するプライバシーポリシーおよび既存の権利についての説明は、それぞれのアプリ・バージョンに適用される案内として保持されます。</p>
     <h2>1. アプリの利用</h2>
+    <p>このクローズドテスト版（internalPreview）は、固定のGoogleテスト広告ユニットのみを使用する構成で、本番広告ユニットはリクエストしません。テスト広告の確認は、広告収益やAdMobの本番広告配信の準備完了を示すものではありません。広告のリクエストと表示は、以下の条件とテスト広告の提供状況に従います。</p>
+    <p>このバージョンは年齢の質問や広告形式ごとの事前設定なしで、広告により無料プレイを支えます。すべての広告要求に子ども向け処理、Gコンテンツ上限、非パーソナライズ設定を適用します。これは利用者の年齢を判定したりGoogleのプライバシー同意に代わったりするものではありません。以前から分かっている未成年情報とGoogle UMPの選択・要求許可を維持し確認します。必要なGoogleの選択は別途扱い、利用可能なプライバシーオプションは設定から開けます。同意を拒否した後もGoogleが許可する制限付き広告が利用可能な場合があります。制限付き広告にもIP情報、キャッシュ、構成に応じた不正防止用保存などのデータ処理があります。</p>
+    <p>バナーはステージ21からではなく、初回のホームからステージ選択、プレイ、クリア、設定などの主要画面下部の広告用の領域に表示される場合があります。以前の広告削除権利、権利不明、プライバシー条件、1時間の広告停止、広告在庫により表示されない場合があります。モーダル、キーボード、バックグラウンド、安全な空間が不足する場合は非表示にします。以前の広告OFF、拒否、破損・曖昧な記録を自動で取り消しません。該当者は下部または設定の「バナーを再開」を自分で選べます。バナーだけを再開し、Google同意、報酬付与、以前の全画面広告の停止解除を意味しません。</p>
+    <p>リワード広告はヒントまたは1時間停止の画面で自分で視聴ボタンを押した場合のみ要求します。別の永続的なリワード設定は不要です。タップや閉じる操作だけでは報酬は付かず、SDKの報酬獲得コールバックが必要です。広告を見なくても全200ステージと進行記録は無料で利用でき、戻す・やり直す操作に広告は不要です。</p>
+    <p>全画面広告の機会は25、30、35…ステージを新たにクリアして次のステージを選んだ時だけで、最低4分間隔、1日最大6回です。未準備の広告を別のステージへ繰り越しません。報酬獲得後の次の機会は省略します。最終200ステージ後に次がなければ全画面広告もありません。アプリの再開だけでは要求・表示しません。</p>
+    <p>広告要求条件を満たせば、進行度や新たな年齢回答を条件とせず、ホームまたは設定でリワード広告を選びバナーと全画面広告を1時間停止できます。SDK報酬コールバックから時間が進み、アプリを閉じても続きます。獲得前に閉じる、エラー、広告なしでは時間は付きません。停止中の追加獲得、累積、延長はできません。期限後は通常の広告条件に戻ります。この停止は無制限ヒントの権利ではなく、ヒント広告や無料ヒント上限をなくしません。ヒント報酬も停止時間を追加・延長しません。</p>
+    <p>ステージ1〜20では1手ずつのヒントを無料で何度でも使えます。ステージ21〜200では、各ステージで異なる1手のヒントを2つ無料で利用できます。その後、広告の対象者はリワード広告を1回見ることを選べます。報酬を獲得すると、今のステージだけで1手ずつのヒントが永久に回数無制限になります。他のステージは解放されません。広告を見なくても、広告を利用できない場合でもプレイを続けられます。報酬を得る前に広告を閉じた場合や広告を利用できない場合、その広告のヒント解放報酬は付与されません。</p>
+    <p>Google Mobile Ads SDKは広告、分析、不正防止のため、IPアドレス、アプリ起動・タップ・広告を見るなどの操作情報、診断情報、端末やアカウントの識別子を自動的に収集・共有する場合があります。IPアドレスから端末のおおよその位置を推定する場合があります。このビルドはAD_ID権限を除外しますが、すべての識別子処理がなくなるわけではありません。SDKの組み込みと広告要求は別です。UMPは利用可能なプライバシー選択の確認・表示のためGoogleと通信する場合があります。リンク先のGoogleデータ案内はSDK 25.5.0を説明し、本アプリはSDK 25.4.0を使用します。この説明は提供者の案内とアプリ構成に基づき、すべてのネットワーク通信を実測した結果ではありません。 (https://developers.google.com/admob/android/privacy/play-data-disclosure)</p>
+    <p>このバージョンには新しい決済や購入復元の機能はなく、Google Playに購入の照会・検証・復元を要求しません。端末に保存された検証済みの以前の広告削除の権利がある利用者は、バナー・全画面・リワード広告すべての削除と全ステージの無制限の1手ヒントを引き続き利用できます。以前のバージョンが保存した購入トークン、署名付き購入情報、権利、処理状態は既存の端末内台帳に残る場合があります。この更新はその台帳やゲームの進行記録を消去せず、台帳を決済サービスへ送信しません。以前の権利はローカル記録のみで確認し、オンライン再検証は行いません。アプリデータの削除や再インストールでローカルの権利が失われた場合、このバージョンではGoogle Playによる復元は提供しません。</p>
+    <details>
+      <summary>以前のバージョン（0.4.2 / versionCode 20以前）</summary>
     <p>全200ステージのパズル、取り消し、リセット、ステージ移動、ゲーム記録は無料です。広告の視聴や購入なしで遊び続けられます。基本ヒント数と任意の報酬は、以下のインストール済みバージョンの規則に従います。進行状況と設定は端末に保存し、開発者はゲームアカウント、アプリのログイン、ゲームサーバーを運営しません。</p>
     <p>本ポリシーは、v15以前、v16、以前の保護付きバナー更新版、および基本ヒント2つ・任意の保護付きリワード広告の更新版（0.4.2 / versionCode 20）を区別します。以下の新しいヒント数と年齢未確認者向けの任意のヒント用リワード広告は、その更新版をインストールした場合のみ適用します。以前の保護付きバナー許可は、新しいリワード広告の選択の代わりにはなりません。新規アプリ内購入とGoogle Play Billingの削除は維持します。実際の提供はインストールした版、配信設定、以下の条件によります。ポリシーの掲載や内部テストの提供自体は一般公開を意味しません。</p>
     <p>現在準備されている0.4.2 / versionCode 20の内部テストビルド（internalPreview）は、固定のGoogleテスト広告ユニットのみを要求し、本番広告ユニットは要求しない構成です。実際の要求と表示は以下の条件とテスト広告の提供状況によります。</p>
@@ -169,7 +227,13 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>Google Mobile AdsやUMPなどのGoogleサービスは、広告提供、プライバシー選択の確認、分析、不正防止などのために情報を処理する場合があります。Google Mobile Adsの公式説明には、IPアドレス（おおよその位置の推定に使われる場合があります）、アプリ・広告の操作、診断情報、端末またはアカウントの識別子の自動収集・共有が含まれます。アプリはパーソナライズ広告を要求せず、非パーソナライズ広告（NPA）を要求する設定です。新しい方針の利用者がGoogleのプライバシー選択を拒否・撤回しても、選択内容・SDKの判断・アプリの条件により制限付き広告（LTD）が許可される場合があり、すべての広告が永久に削除されるわけではありません。実際の配信形式はこれらの条件によります。NPAやLTDもIPの処理などを伴う場合があり、LTDは設定により不正防止用ストレージを使う場合があります。UMPの広告要求可能という信号は、すべての目的・事業者への同意や実際のLTD配信を証明しません。<a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDKのデータ説明</a>と<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご参照ください。UMPは適用されるプライバシー選択を確認・表示するためGoogleと通信する場合があります。</p>
     <p>v16の広告・同意機能にはGoogle Mobile AdsとUMPを使用し、Google Play Billingは含みません。Google Play開発者サービスのAD_ID権限を除外する設定でも、すべての識別子やSDKのデータ処理がなくなるわけではありません。以上は提供者の案内とアプリの設定に基づく説明であり、すべてのネットワーク通信を個別に実測・認証した結果ではありません。アプリから広告を要求しない状態や年齢確認前の状態は、SDK初期化、Googleサービスの自動処理など、すべての外部通信がないことを保証しません。</p>
     <p>Google Play Billingを含むv15および従来版にのみ適用される処理：Google Playでの購入確認・復元・承認には、商品識別子、購入トークン、権利、処理状態などの必要な情報を使用します。購入承認に必要な購入トークンがGoogle Playに送信される場合があります。購入トークン、署名付き購入資料、権利、処理状態は確認・復元のために端末内の台帳にも保存されます。開発者はカード番号や決済パスワードを受け取りません。広告や新規販売が無効でも、アプリの起動・復帰や確認・復元時に既存購入の照会・処理を行う場合があります。再インストール、アカウント変更、返金後の確認にはGoogle Playへの接続が必要な場合があり、オフラインでは取消確認が遅れる場合があります。</p>
+    </details>
     <h2>2. 端末内に保存する情報</h2>
+    <p>ゲームの進行状況、クリア・スコアの記録、以前のパズルの記録、ステージごとの無料ヒント利用記録と報酬による解放状態、言語・サウンド・振動・モーションの設定は、プレイの継続と設定の維持のため、端末内のアプリ用ストレージに保存されます。運営者がこれらを遠隔で閲覧・削除することはできません。</p>
+    <p>現在のAndroidアプリは、アプリデータを自動クラウドバックアップおよび端末間転送から除外する設定です。記録と設定を削除するには、Androidの設定でPakPinのアプリデータを消去するか、アプリをアンインストールできます。メニューや動作は端末・OSによって異なる場合があります。削除した記録の復元は提供していません。ゲーム盤のリセットは、保存されたアプリデータ全体の削除とは異なります。</p>
+    <p>端末には以前の年齢・広告選択の記録、バナー再開の選択、頻度記録、停止終了時刻、検証済みの以前の広告削除権利が残る場合があります。このバージョンは年齢や生年月日を新たに尋ねず、以前のプライバシー選択を消したり同意に変えたりしません。永続的なリワード広告許可を別途保存しません。Googleのオプションが提供される場合は設定から開けます。Google自身の保存・削除・国外処理は同社の方針に従い、アプリは保存期間や処理国を別途保証しません。</p>
+    <details>
+      <summary>以前のバージョン（0.4.2 / versionCode 20以前）</summary>
     <p>ゲームの進行状況、クリア・スコアの記録、以前のパズルの記録、言語・サウンド・振動・モーションの設定は、プレイの継続と設定の維持のため、端末内のアプリ用ストレージに保存されます。運営者がこれらを遠隔で閲覧・削除することはできません。</p>
     <p>現在のAndroidアプリは、アプリデータを自動クラウドバックアップおよび端末間転送から除外する設定です。記録と設定を削除するには、Androidの設定でPakPinのアプリデータを消去するか、アプリをアンインストールできます。メニューや動作は端末・OSによって異なる場合があります。削除した記録の復元は提供していません。ゲーム盤のリセットは、保存されたアプリデータ全体の削除とは異なります。</p>
     <p>v16は、年齢区分（18歳以上・18歳未満・不明）、適用する広告方針の区分と説明確認、従来方針の広告許可・バージョン、頻度、従来の購入権利・保護記録も端末に保持します。正確な入力年齢や生年月日は保存しません。設定で年齢区分を変更できます。従来方針の利用者はアプリの広告許可をオン・オフでき、新方針の利用者は広告による運営支援の説明を再確認できます。Googleがプライバシーオプションを必要と判断した場合、設定からその選択画面を開き直せます。Google選択画面を開くとキャッシュ広告を破棄し、必要条件を再確認します。撤回で処理済みデータが自動削除されるわけではありません。Google自身の保存・削除・国外処理には同社の方針が適用されます。 端末に残っている既存の選択記録を保護します。アプリデータの消去や再インストールなどで記録が失われた場合、以前の選択を確認できず、年齢区分やプライバシー選択を再確認する場合があります。v16はGoogle Playの購入確認・復元を提供せず、アプリデータ消去後の残りの広告休止時間や従来の権利の自動復元を保証しません。</p>
@@ -179,6 +243,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>広告の利用条件を満たす成人の方は、任意のリワード広告で報酬を獲得した時点から、バナー・自動表示の全画面広告を1時間停止できます。報酬と残り時間を管理するため、ローカルの報酬識別値、報酬獲得時刻、有効期限、最終確認時刻、残り時間の上限を端末に保存します。この報酬識別値は広告用の端末識別子ではありません。アプリを閉じても時間は経過し、停止中の加算・延長はできません。ヒント用リワード広告は別です。この停止は、広告SDKや関連サービスによるすべてのデータ処理が停止することを意味しません。</p>
     <p>この更新版は、獲得済みで有効な広告停止の権利を元の期限まで維持します。年齢未確認または18歳未満には、新しい1時間停止用のリワード広告を提供しません。ヒント報酬で停止時間を追加・延長せず、広告停止自体で追加ヒントを解放することもありません。</p>
     <p>端末の時計を戻すと、残りの広告休止時間が早期に終了する場合があります。</p>
+    </details>
     <h2>3. 任意で送信するサポートメール</h2>
     <p><a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>へお問い合わせいただけます。メールを送信すると、返信先アドレス、表示名、本文および添付したファイルが届き、お問い合わせの確認・回答・問題解決に使用します。メールを送らなくてもゲームを利用できます。</p>
     <p>サポートメールはGmailで受信・保存するため、メールの送信・保存時にGoogleが情報を処理します。<a href="https://policies.google.com/privacy">Googleプライバシーポリシー</a>をご参照ください。</p>
@@ -188,7 +253,11 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本ページはGitHub Pagesで提供します。GitHubは、ログインの有無にかかわらず、セキュリティ目的で訪問者のIPアドレスを記録・保存します。<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubプライバシーステートメント</a>をご参照ください。</p>
     <p>本ページ訪問時のGitHubの処理は、ゲームの端末内保存やアプリのGoogle広告・同意機能の処理とは別です。</p>
     <h2>5. お子様の利用</h2>
+    <p>子どもも全ステージと基本無料ヒントを利用できます。年齢の質問は表示せず、すべての広告に保護設定を適用し、以前から分かっている未成年情報はGoogle UMP処理に維持します。保護設定はデータ処理がないことや全地域で同意が不要なことを意味しません。1～20ステージは無制限、21～200は各2つの無料ヒントで、任意の報酬は第1節のとおりです。氏名、メール、生年月日は要求しません。子どもの問い合わせは保護者が送り、不要な子どもの情報の削除を依頼できます。</p>
+    <details>
+      <summary>以前のバージョン（0.4.2 / versionCode 20以前）</summary>
     <p>子どももすべてのパズルを無料で遊べます。ステージ1〜20のヒントは回数無制限で、21〜200は第1項の各ステージ基本ヒント2つの規則に従います。18歳未満と分かっている利用者には広告を要求・表示しません。年齢未確認の利用者は未確認のまま、第1項の独立した保護付きバナーまたは任意のヒント用リワード広告の条件を満たした形式のみが対象になれます。自動全画面広告と1時間停止用のリワード広告は提供しません。名前、メールアドレス、生年月日は必須ではなく、年齢確認への回答も任意です。遊ぶために成人年齢を選んだりプライバシー同意を変更したりする必要はありません。SDKの起動、外部通信、保護設定の限界は第1項を参照してください。子どもの問い合わせは保護者が送信し、不要な子どもの個人情報の削除を依頼できます。</p>
+    </details>
     <h2>6. 情報の保護とご請求</h2>
     <p>端末内のゲーム記録はアプリ用ストレージで処理されます。端末のロックやアクセス権限を適切に管理してください。パスワード、決済情報、本人確認書類、問題解決に不要な機微情報をサポートメールで送らないでください。</p>
     <p>お問い合わせに含まれる個人情報の閲覧・訂正・削除などのご請求は、<a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>へお送りください。処理に必要な最小限の確認後、適用法令に従って対応します。端末内にのみ保存されるゲーム記録は、上記2の方法でご自身で管理できます。</p>
@@ -200,6 +269,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
   </article>
   <article id="zh-Hans" lang="zh-Hans" aria-labelledby="title-zh-Hans">
     <h1 id="title-zh-Hans">PakPin 隐私政策</h1>
+    <p class="version-scope"><strong>适用版本：0.4.3 / versionCode 21 封闭测试。以下内容适用于该版本。能否安装取决于Google Play的处理状态及测试者的参与资格。封闭测试不代表公开发布。以前版本的说明保留在折叠历史中。</strong></p>
     <p>生效日期：2026年10月17日（韩国标准时间）</p>
     <p>运营者：Log_Ian<br>
 应用：PakPin<br>
@@ -207,6 +277,17 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本政策适用于PakPin Android应用、支持邮件，以及托管在GitHub Pages上的本隐私政策网页。</p>
     <p>PakPin（com.logian.pakpin.puzzle）是与原有PakPin（com.logian.pakpin）分别安装的应用。原有应用的游戏记录、设置以及保存在设备上的移除广告权益不会转移至新应用，也不会由新应用继承。原有应用及历史版本的隐私政策和既有权益说明将予以保留，作为适用于相应应用及版本的信息。</p>
     <h2>1. 使用应用</h2>
+    <p>此封闭测试版本（internalPreview）仅配置使用固定的Google测试广告单元，不请求正式广告单元。测试广告的显示不能证明广告收入或AdMob正式广告投放已准备就绪。广告请求和显示仍取决于以下条件及测试广告的可用情况。</p>
+    <p>此版本通过广告支持免费游戏，不再显示年龄问卷或单独的广告形式设置。所有广告请求均采用面向儿童的处理方式、G级内容上限及非个性化设置。这不代表判断用户年龄，也不能替代Google隐私同意。应用保留并检查以前已知的未成年信息、Google UMP隐私选择和请求许可。必要的Google隐私选择另行处理；提供隐私选项时可在设置中打开。拒绝同意后，仍可能显示Google允许的受限广告。受限广告也可能涉及IP信息、缓存及依配置启用的防欺诈存储，并非不处理数据。</p>
+    <p>横幅可从首次首页开始，显示在选关、游戏、完成和设置等主要画面的底部广告区域，而不是从第21关才开始。旧版移除广告权益、权益未知、隐私条件、1小时广告暂停及广告可用性可能阻止展示。对话框、键盘、后台或安全空间不足时隐藏横幅。以前的广告关闭、拒绝、损坏或含糊记录不会自动撤销。相关用户可在底部或设置中主动选择恢复横幅；此操作只恢复横幅，不给予Google同意或奖励，也不解除以前的插屏广告封锁。</p>
+    <p>只有用户在提示或1小时暂停画面主动点击观看，才会请求激励广告，无需另设长期激励广告开关。点击或关闭本身不会获得奖励，必须由SDK奖励回调确认。不看广告也可免费游玩全部200关并保留进度；撤销和重试不要求广告。</p>
+    <p>插屏广告机会仅在首次完成第25、30、35…关并选择下一关后出现，至少间隔4分钟，每天最多6次。未准备好的广告不会延后到其他关卡。获得奖励后的下一次插屏机会会跳过。最终第200关之后没有下一关时也没有插屏。仅恢复应用不会请求或展示插屏。</p>
+    <p>满足广告请求条件时，不以关卡进度或新的年龄回答为条件，可从首页或设置选择观看激励广告，将横幅和插屏暂停1小时。时间从SDK奖励回调开始，关闭应用后仍继续。获得奖励前关闭、错误或没有广告不会获得时间。暂停期间不可再次获得、累加或延长暂停。到期后恢复一般广告条件。此暂停不是无限提示权益，不取消提示广告或免费提示限额；提示奖励也不增加或延长暂停时间。</p>
+    <p>第1–20关可无限免费使用单步提示。第21–200关每关提供两个不同的免费单步提示。用完后，符合广告条件的用户可选择观看一个激励广告；获得奖励后，仅当前关卡永久解锁无限单步提示，不解锁其他关卡。不看广告或没有可用广告时，仍可继续游戏。获得奖励前关闭广告或广告不可用时，不会发放该广告的提示解锁奖励。</p>
+    <p>Google Mobile Ads SDK可能为广告、分析及防止滥用，自动收集与共享IP地址、应用启动与点击及广告观看等互动、诊断信息以及设备或账号标识符。IP地址可能用于推测设备的大致位置。本版本移除AD_ID权限，但不代表不再处理所有标识符。包含SDK与请求广告是不同的行为。UMP可能与Google通信，以检查和显示可用的隐私选择。链接中的Google数据说明针对SDK 25.5.0，本应用使用SDK 25.4.0。这些说明依据提供方文档及应用配置，并非对所有网络传输进行实测的结果。 (https://developers.google.com/admob/android/privacy/play-data-disclosure)</p>
+    <p>此版本没有新付款或购买恢复流程，不会向Google Play请求购买查询、验证或恢复。设备中保留已验证旧版移除广告权益的用户，继续享有移除全部横幅、插屏和激励广告以及所有关卡无限单步提示的权益。旧版本保存的购买令牌、已签名购买记录、权益及处理状态可能仍保留在现有本地账本中。此次更新不会清除该账本或游戏进度，也不会将账本传送给支付服务。旧版权益仅从本地记录读取，不进行在线重新验证。如果清除应用数据或重装导致本地权益记录丢失，此版本不提供通过Google Play恢复的功能。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>全部200关谜题、撤销、重置、关卡切换及游戏记录均免费。无需观看广告或购买即可继续游玩。基础提示与可选奖励适用下述已安装版本的规则。进度与设置保存在设备上；开发者不运营游戏账号、应用登录或游戏服务器。</p>
     <p>本政策区分v15及更早版本、v16、此前的保护模式横幅更新，以及两条基础提示和可选保护模式激励广告更新（0.4.2 / versionCode 20）。下述新提示额度及年龄未知用户可选的提示激励广告，仅适用于安装该更新的用户。此前的保护模式横幅许可不能代替新的激励广告选择。移除新应用内购买及Google Play Billing的措施保持不变。实际可用情况取决于所安装版本、发布配置及以下条件。发布本政策或提供内部测试本身不代表已全面发布。</p>
     <p>目前准备的0.4.2 / versionCode 20内部测试构建（internalPreview）配置为仅请求固定的Google测试广告单元，不请求正式广告单元。实际请求及显示仍取决于下述条件和测试广告可用情况。</p>
@@ -222,7 +303,13 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>Google Mobile Ads、UMP等Google服务可能为广告提供、隐私选择检查、分析及防止滥用处理信息。Google Mobile Ads的官方说明包含IP地址（可能用于推测大致位置）、应用和广告互动、诊断信息、设备或账号标识符的自动收集及共享。应用不请求个性化广告，并设置为请求非个性化广告（NPA）。新政策用户拒绝或撤回Google隐私选择后，根据其选择、SDK判断及应用条件，仍可能允许受限广告（LTD），并不表示永久移除全部广告。实际投放方式取决于这些条件。NPA或LTD仍可能涉及IP等数据处理，LTD也可能根据配置使用防滥用存储。UMP允许请求广告的信号不证明已取得所有用途或供应商的同意，也不证明实际投放了LTD。请参阅<a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDK数据说明</a>及<a href="https://policies.google.com/privacy">Google隐私政策</a>。UMP可能与Google通信，以检查和显示适用的隐私选择。</p>
     <p>v16的广告及同意功能使用Google Mobile Ads和UMP，不包含Google Play Billing。应用配置为移除Google Play服务的AD_ID权限，但这不表示所有标识符或SDK数据处理均已消除。以上说明依据提供方文档及应用配置，并非对每次网络传输进行独立实测或认证的结果。应用未请求广告或尚未确认年龄的状态，不保证SDK初始化、Google服务自动处理等全部外部通信均不存在。</p>
     <p>仅适用于包含Google Play Billing的v15及旧版本的处理：Google Play的购买确认、恢复及确认处理会使用商品标识符、购买令牌、权益及处理状态等必要信息。购买确认所需的购买令牌可能被发送至Google Play。购买令牌、已签名购买资料、权益及处理状态也保存在设备内的记录中，用于验证和恢复。开发者不会收到银行卡号或支付密码。即使广告及新销售关闭，也可能在应用启动、返回及验证、恢复购买时查询和处理已有购买权益。重新安装、更换账号或退款后的确认可能需要连接Google Play；离线时撤销确认可能延迟。</p>
+    </details>
     <h2>2. 保存在设备上的信息</h2>
+    <p>游戏进度、通关和分数记录、旧谜题记录、各关免费提示使用记录和奖励解锁状态，以及语言、声音、振动和动态效果设置保存在设备的应用存储空间中，用于继续游戏和保留设置。运营者无法远程查看或删除这些信息。</p>
+    <p>当前Android应用已设置为将应用数据排除在自动云备份和设备间传输之外。如需删除记录和设置，您可以在Android设置中清除PakPin的应用数据或卸载应用。菜单和行为可能因设备及操作系统而异。我们不提供已删除记录的恢复功能。重置游戏棋盘与删除全部应用存储数据不同。</p>
+    <p>设备可能保留以前的年龄与广告选择记录、恢复横幅的选择、广告频率记录、暂停到期时间及已验证的旧版移除广告权益。此版本不新询问年龄或出生日期，不清除旧隐私选择或将其改为同意，也不另存永久激励广告许可。Google提供隐私选项时可在设置中打开。Google自身的保留、删除及跨境处理遵循其隐私政策；应用不另外保证其保留期限或处理国家。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>游戏进度、通关和分数记录、旧谜题记录，以及语言、声音、振动和动态效果设置保存在设备的应用存储空间中，用于继续游戏和保留设置。运营者无法远程查看或删除这些信息。</p>
     <p>当前Android应用已设置为将应用数据排除在自动云备份和设备间传输之外。如需删除记录和设置，您可以在Android设置中清除PakPin的应用数据或卸载应用。菜单和行为可能因设备及操作系统而异。我们不提供已删除记录的恢复功能。重置游戏棋盘与删除全部应用存储数据不同。</p>
     <p>v16还在设备上保存年龄分类（18岁及以上、未满18岁或未知）、适用广告政策组和说明确认、旧政策广告许可及版本、广告频次，并保留旧版本购买权益及保护记录。不保存输入的确切年龄或出生日期。可在设置中更改年龄分类。旧政策用户可开启或关闭应用的广告许可，新政策用户可重新查看广告支持说明。Google提示需要提供隐私选项时，可从设置中重新打开相应选择画面。打开Google选择画面会丢弃缓存广告，之后重新检查必要条件。撤回不自动删除已处理数据。Google自身保留、删除和跨境处理适用其政策。 我们保护仍保存在设备上的已有选择记录。如果清除应用数据、重新安装等操作导致记录丢失，就无法确认以前的选择，并可能重新确认年龄及隐私选择。v16不提供Google Play购买确认或恢复，不保证清除应用数据后自动恢复剩余广告暂停时间或旧版本权益。</p>
@@ -232,6 +319,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>符合广告使用条件的成年用户可自愿通过激励广告获得奖励，从获得奖励时起暂停横幅和自动插屏广告1小时。为记录奖励及其有效时间，会在设备中保存本地奖励标识值、获得奖励的时间、到期时间、最后确认时间及剩余时间上限。本地奖励标识值不是广告设备标识符。关闭应用后时间仍继续流逝，暂停期间不能累加或延长。提示用激励广告另行保留。暂停广告不意味着广告SDK及相关服务的全部数据处理都会停止。</p>
     <p>此更新保留已经获得且仍有效的广告暂停权益，直到原到期时间。年龄未知或未满18岁时，不提供新的1小时暂停激励广告。提示奖励不会增加或延长暂停时间，广告暂停本身也不会解锁额外提示。</p>
     <p>将设备时钟向后调整可能导致剩余的广告暂停时间提前结束。</p>
+    </details>
     <h2>3. 您自愿发送的支持邮件</h2>
     <p>您可以联系<a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>。发送邮件时，您的回复地址、显示名称、邮件内容及主动附上的文件会被接收，并用于查看、回复咨询和解决问题。不发送邮件也可以使用游戏。</p>
     <p>支持邮件通过Gmail接收和保存，因此Google会在邮件传输和存储过程中处理信息。请参阅<a href="https://policies.google.com/privacy">Google隐私政策</a>。</p>
@@ -241,7 +329,11 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本网页由GitHub Pages托管。无论访客是否登录，GitHub都会出于安全目的记录和保存访客的IP地址。请参阅<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub隐私声明</a>。</p>
     <p>访问本页面时GitHub的处理，与游戏本地存储以及应用的Google广告、同意功能的处理相互区别。</p>
     <h2>5. 儿童使用</h2>
+    <p>儿童也可使用全部关卡和基本免费提示。此版本不显示年龄问卷，对所有广告采用保护设置，并在Google UMP处理中保留以前已知的未成年信息。保护设置不代表没有数据处理，也不代表所有地区均免于同意要求。第1–20关无限免费提示，第21–200关每关两个；可选奖励见第1节。不要求姓名、邮箱或出生日期。儿童的支持请求应由监护人发送，可要求删除不必要的儿童信息。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>儿童也可免费游玩全部谜题。第1–20关提供无限提示，第21–200关适用第1节每关两条基础提示规则。不向已知未满18岁的用户请求或显示广告。年龄未知用户保持未知，只有满足第1节独立的保护模式横幅或可选提示激励广告条件，才可能使用对应形式。不向他们提供自动插屏或1小时暂停激励广告。姓名、电子邮箱及出生日期不是必填项，年龄问题可不回答。游玩不要求选择成年年龄或改变隐私同意。SDK启动、外部通信及保护设置的局限见第1节。儿童的支持请求应由家长或监护人发送，并可要求删除不必要的儿童信息。</p>
+    </details>
     <h2>6. 信息保护与请求</h2>
     <p>本地游戏记录在设备的应用存储空间中处理。请妥善管理设备锁定和访问权限。请勿在支持邮件中发送密码、支付信息、身份证件或解决问题所不需要的敏感信息。</p>
     <p>如需查阅、更正、删除支持咨询中的个人信息，或提出其他相关请求，请发送邮件至<a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>。我们会在完成处理请求所必需的最少核实后，按照适用法律处理。仅保存在设备上的游戏记录可按第2节所述方法自行管理。</p>
@@ -253,6 +345,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
   </article>
   <article id="zh-Hant" lang="zh-Hant" aria-labelledby="title-zh-Hant">
     <h1 id="title-zh-Hant">PakPin 隱私權政策</h1>
+    <p class="version-scope"><strong>適用版本：0.4.3 / versionCode 21 封閉測試。以下內容適用於該版本。能否安裝取決於Google Play的處理狀態及測試者的參與資格。封閉測試不代表公開發布。以前版本的說明保留在摺疊歷史中。</strong></p>
     <p>生效日期：2026年10月17日（韓國標準時間）</p>
     <p>營運者：Log_Ian<br>
 應用程式：PakPin<br>
@@ -260,6 +353,17 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本政策適用於PakPin Android應用程式、支援電子郵件，以及託管於GitHub Pages的本隱私權政策網頁。</p>
     <p>PakPin（com.logian.pakpin.puzzle）是與原有PakPin（com.logian.pakpin）分別安裝的應用程式。原有應用程式的遊戲紀錄、設定，以及儲存在裝置上的移除廣告權益，不會轉移至新應用程式，也不會由新應用程式繼承。原有應用程式及歷史版本的隱私權政策和既有權益說明將予以保留，作為適用於相應應用程式及版本的資訊。</p>
     <h2>1. 使用應用程式</h2>
+    <p>此封閉測試版本（internalPreview）僅設定使用固定的Google測試廣告單元，不要求正式廣告單元。測試廣告的顯示不能證明廣告收益或AdMob正式廣告投放已準備就緒。廣告請求和顯示仍取決於以下條件及測試廣告的可用情況。</p>
+    <p>此版本透過廣告支持免費遊戲，不再顯示年齡問卷或單獨的廣告形式設定。所有廣告請求均採用兒童導向處理方式、G級內容上限及非個人化設定。這不代表判斷使用者年齡，也不能替代Google隱私同意。應用程式保留並檢查以前已知的未成年資訊、Google UMP隱私選擇和請求許可。必要的Google隱私選擇另行處理；提供隱私選項時可在設定中開啟。拒絕同意後，仍可能顯示Google允許的受限廣告。受限廣告也可能涉及IP資訊、快取及依設定啟用的防詐欺儲存，並非不處理資料。</p>
+    <p>橫幅可從首次首頁開始，顯示在選關、遊戲、完成和設定等主要畫面的底部專用區域，而不是從第21關才開始。舊版移除廣告權益、權益未知、隱私條件、1小時廣告暫停及廣告可用性可能阻止顯示。彈窗、鍵盤、背景或安全空間不足時隱藏橫幅。以前的廣告關閉、拒絕、損壞或含糊紀錄不會自動撤銷。相關使用者可在底部或設定中主動選擇恢復橫幅；此操作只恢復橫幅，不給予Google同意或獎勵，也不解除以前的插頁廣告封鎖。</p>
+    <p>只有使用者在提示或1小時暫停畫面主動點選觀看，才會請求獎勵廣告，無需另設長期獎勵廣告開關。點選或關閉本身不會獲得獎勵，必須由SDK獎勵回呼確認。不看廣告也可免費遊玩全部200關並保留進度；復原和重試不要求廣告。</p>
+    <p>插頁廣告機會僅在首次完成第25、30、35…關並選擇下一關後出現，至少間隔4分鐘，每天最多6次。未準備好的廣告不會延後到其他關卡。取得獎勵後的下一次插頁機會會略過。最終第200關之後沒有下一關時也沒有插頁。僅恢復應用程式不會請求或顯示插頁。</p>
+    <p>滿足廣告請求條件時，不以關卡進度或新的年齡回答為條件，可從首頁或設定選擇觀看獎勵廣告，將橫幅和插頁暫停1小時。時間從SDK獎勵回呼開始，關閉應用程式後仍繼續。取得獎勵前關閉、錯誤或沒有廣告不會取得時間。暫停期間不可再次領取、累加或延長暫停。到期後恢復一般廣告條件。此暫停不是無限提示權益，不取消提示廣告或免費提示限額；提示獎勵也不增加或延長暫停時間。</p>
+    <p>第1–20關可無限免費使用單步提示。第21–200關每關提供兩個不同的免費單步提示。用完後，符合廣告條件的使用者可選擇觀看一個獎勵廣告；取得獎勵後，僅目前關卡永久解鎖無限單步提示，不解鎖其他關卡。不看廣告或沒有可用廣告時，仍可繼續遊戲。取得獎勵前關閉廣告或廣告無法使用時，不會發放該廣告的提示解鎖獎勵。</p>
+    <p>Google Mobile Ads SDK可能為廣告、分析及防止濫用，自動收集與分享IP位址、應用程式啟動與點擊及廣告觀看等互動、診斷資訊以及裝置或帳號識別碼。IP位址可能用於推測裝置的大致位置。本版本移除AD_ID權限，但不代表不再處理所有識別碼。包含SDK與請求廣告是不同的行為。UMP可能與Google通訊，以檢查和顯示可用的隱私選擇。連結中的Google資料說明針對SDK 25.5.0，本應用程式使用SDK 25.4.0。這些說明依據提供者文件與應用程式設定，並非對所有網路傳輸進行實測的結果。 (https://developers.google.com/admob/android/privacy/play-data-disclosure)</p>
+    <p>此版本沒有新付款或購買還原流程，不會向Google Play請求購買查詢、驗證或還原。裝置中保留已驗證舊版移除廣告權益的使用者，繼續享有移除全部橫幅、插頁和獎勵廣告以及所有關卡無限單步提示的權益。舊版本儲存的購買權杖、已簽署購買紀錄、權益及處理狀態可能仍保留在現有本機帳本中。此次更新不會清除該帳本或遊戲進度，也不會將帳本傳送給付款服務。舊版權益僅從本機紀錄讀取，不進行線上重新驗證。如果清除應用程式資料或重新安裝導致本機權益紀錄遺失，此版本不提供透過Google Play還原的功能。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>全部200關謎題、復原、重設、關卡切換及遊戲紀錄均免費。無須觀看廣告或購買即可繼續遊玩。基本提示與選用獎勵適用下述已安裝版本的規則。進度與設定儲存在裝置上；開發者不營運遊戲帳號、應用程式登入或遊戲伺服器。</p>
     <p>本政策區分v15及更早版本、v16、先前的保護模式橫幅更新，以及兩個基本提示和選用保護模式獎勵廣告更新（0.4.2 / versionCode 20）。下述新提示額度及年齡未知使用者選用的提示獎勵廣告，僅適用於安裝該更新的使用者。先前的保護模式橫幅許可不能代替新的獎勵廣告選擇。移除新應用程式內購買及Google Play Billing的措施維持不變。實際可用情況取決於所安裝版本、發布設定及以下條件。發布本政策或提供內部測試本身不代表已全面發布。</p>
     <p>目前準備的0.4.2 / versionCode 20內部測試建置（internalPreview）設定為僅請求固定的Google測試廣告單元，不請求正式廣告單元。實際請求及顯示仍取決於下述條件和測試廣告可用情況。</p>
@@ -275,7 +379,13 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>Google Mobile Ads、UMP等Google服務可能為廣告提供、隱私選擇檢查、分析及防止濫用處理資訊。Google Mobile Ads的官方說明包含IP位址（可能用於推測大致位置）、應用程式和廣告互動、診斷資訊、裝置或帳號識別碼的自動蒐集及分享。應用程式不請求個人化廣告，並設定為請求非個人化廣告（NPA）。新政策使用者拒絕或撤回Google隱私選擇後，依據其選擇、SDK判斷及應用程式條件，仍可能允許受限廣告（LTD），並不表示永久移除全部廣告。實際投放方式取決於這些條件。NPA或LTD仍可能涉及IP等資料處理，LTD也可能依設定使用防濫用儲存。UMP允許請求廣告的訊號不證明已取得所有用途或供應商的同意，也不證明實際投放了LTD。請參閱<a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google SDK資料說明</a>及<a href="https://policies.google.com/privacy">Google隱私權政策</a>。UMP可能與Google通訊，以檢查和顯示適用的隱私選擇。</p>
     <p>v16的廣告及同意功能使用Google Mobile Ads和UMP，不包含Google Play Billing。應用程式設定為移除Google Play服務的AD_ID權限，但這不表示所有識別碼或SDK資料處理均已消除。以上說明依據提供者文件及應用程式設定，並非對每次網路傳輸進行獨立實測或認證的結果。應用程式未請求廣告或尚未確認年齡的狀態，不保證SDK初始化、Google服務自動處理等全部外部通訊均不存在。</p>
     <p>僅適用於包含Google Play Billing的v15及舊版本的處理：Google Play的購買確認、還原及確認處理會使用商品識別碼、購買權杖、權益及處理狀態等必要資訊。購買確認所需的購買權杖可能被傳送至Google Play。購買權杖、已簽署購買資料、權益及處理狀態也儲存在裝置內的紀錄中，用於驗證和還原。開發者不會收到信用卡號或付款密碼。即使廣告及新銷售關閉，也可能在應用程式啟動、返回及驗證、還原購買時查詢和處理既有購買權益。重新安裝、更換帳號或退款後的確認可能需要連線至Google Play；離線時撤銷確認可能延遲。</p>
+    </details>
     <h2>2. 儲存在裝置上的資訊</h2>
+    <p>遊戲進度、通關和分數紀錄、舊謎題紀錄、各關免費提示使用紀錄和獎勵解鎖狀態，以及語言、聲音、振動和動態效果設定儲存在裝置的應用程式儲存空間中，用於繼續遊戲和保留設定。營運者無法遠端檢視或刪除這些資訊。</p>
+    <p>目前的Android應用程式已設定為將應用程式資料排除於自動雲端備份和裝置間傳輸之外。如需刪除紀錄和設定，您可以在Android設定中清除PakPin的應用程式資料或解除安裝。選單和行為可能因裝置及作業系統而異。我們不提供已刪除紀錄的復原功能。重設遊戲棋盤與刪除全部應用程式儲存資料不同。</p>
+    <p>裝置可能保留以前的年齡與廣告選擇紀錄、恢復橫幅的選擇、廣告頻率紀錄、暫停到期時間及已驗證的舊版移除廣告權益。此版本不新詢問年齡或出生日期，不清除舊隱私選擇或將其改為同意，也不另存永久獎勵廣告許可。Google提供隱私選項時可在設定中開啟。Google自身的保留、刪除及跨境處理遵循其隱私權政策；應用程式不另外保證其保留期限或處理國家。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>遊戲進度、通關和分數紀錄、舊謎題紀錄，以及語言、聲音、振動和動態效果設定儲存在裝置的應用程式儲存空間中，用於繼續遊戲和保留設定。營運者無法遠端檢視或刪除這些資訊。</p>
     <p>目前的Android應用程式已設定為將應用程式資料排除於自動雲端備份和裝置間傳輸之外。如需刪除紀錄和設定，您可以在Android設定中清除PakPin的應用程式資料或解除安裝。選單和行為可能因裝置及作業系統而異。我們不提供已刪除紀錄的復原功能。重設遊戲棋盤與刪除全部應用程式儲存資料不同。</p>
     <p>v16還在裝置上儲存年齡分類（18歲以上〔含18歲〕、未滿18歲或未知）、適用廣告政策組和說明確認、舊政策廣告許可及版本、廣告頻次，並保留舊版本購買權益及保護紀錄。不儲存輸入的確切年齡或出生日期。可在設定中變更年齡分類。舊政策使用者可開啟或關閉應用程式的廣告許可，新政策使用者可重新查看廣告支持說明。Google提示需要提供隱私選項時，可從設定中重新開啟相應選擇畫面。開啟Google選擇畫面會丟棄快取廣告，之後重新檢查必要條件。撤回不自動刪除已處理資料。Google自身保留、刪除和跨境處理適用其政策。 我們保護仍儲存在裝置上的既有選擇紀錄。如果清除應用程式資料、重新安裝等操作導致紀錄遺失，就無法確認先前的選擇，並可能重新確認年齡及隱私選擇。v16不提供Google Play購買確認或還原，不保證清除應用程式資料後自動還原剩餘廣告暫停時間或舊版本權益。</p>
@@ -285,6 +395,7 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>符合廣告使用條件的成年使用者可自願透過獎勵式廣告取得獎勵，從取得獎勵時起暫停橫幅與自動插頁廣告1小時。為記錄獎勵及其有效時間，會在裝置中儲存本機獎勵識別值、取得獎勵的時間、到期時間、最後確認時間及剩餘時間上限。本機獎勵識別值不是廣告裝置識別碼。關閉應用程式後時間仍持續流逝，暫停期間不能累加或延長。提示用獎勵式廣告另外保留。暫停廣告不代表廣告SDK與相關服務的全部資料處理都會停止。</p>
     <p>此更新保留已經獲得且仍有效的廣告暫停權益，直到原到期時間。年齡未知或未滿18歲時，不提供新的1小時暫停獎勵廣告。提示獎勵不會增加或延長暫停時間，廣告暫停本身也不會解鎖額外提示。</p>
     <p>將裝置時鐘向後調整可能導致剩餘的廣告暫停時間提前結束。</p>
+    </details>
     <h2>3. 您自願寄送的支援電子郵件</h2>
     <p>您可以聯絡<a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>。寄送郵件時，您的回覆地址、顯示名稱、郵件內容及主動附上的檔案會被接收，並用於檢視、回覆詢問和解決問題。不寄送郵件也可以使用遊戲。</p>
     <p>支援郵件透過Gmail接收和保存，因此Google會在郵件傳輸和儲存過程中處理資訊。請參閱<a href="https://policies.google.com/privacy">Google隱私權政策</a>。</p>
@@ -294,7 +405,11 @@ Support and privacy contact: <a href="mailto:hyeonseok45@gmail.com">hyeonseok45@
     <p>本網頁由GitHub Pages託管。不論訪客是否登入，GitHub都會基於安全目的記錄和保存訪客的IP位址。請參閱<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub隱私權聲明</a>。</p>
     <p>造訪本頁面時GitHub的處理，與遊戲本機儲存以及應用程式的Google廣告、同意功能的處理相互區別。</p>
     <h2>5. 兒童使用</h2>
+    <p>兒童也可使用全部關卡和基本免費提示。此版本不顯示年齡問卷，對所有廣告採用保護設定，並在Google UMP處理中保留以前已知的未成年資訊。保護設定不代表沒有資料處理，也不代表所有地區均免於同意要求。第1–20關無限免費提示，第21–200關每關兩個；選用獎勵見第1節。不要求姓名、電子郵件或出生日期。兒童的支援請求應由監護人傳送，可要求刪除不必要的兒童資訊。</p>
+    <details>
+      <summary>以前版本（0.4.2 / versionCode 20及以前）</summary>
     <p>兒童也可免費遊玩全部謎題。第1–20關提供無限提示，第21–200關適用第1節每關兩個基本提示規則。不向已知未滿18歲的使用者請求或顯示廣告。年齡未知使用者維持未知，只有滿足第1節獨立的保護模式橫幅或選用提示獎勵廣告條件，才可能使用對應形式。不向他們提供自動插頁或1小時暫停獎勵廣告。姓名、電子郵件地址及出生日期不是必填項，年齡問題可不回答。遊玩不要求選擇成年年齡或改變隱私同意。SDK啟動、外部通訊及保護設定的限制見第1節。兒童的支援請求應由家長或監護人傳送，並可要求刪除不必要的兒童資訊。</p>
+    </details>
     <h2>6. 資訊保護與請求</h2>
     <p>本機遊戲紀錄在裝置的應用程式儲存空間中處理。請妥善管理裝置鎖定和存取權限。請勿在支援郵件中寄送密碼、付款資訊、身分證件或解決問題所不需要的敏感資訊。</p>
     <p>如需查閱、更正、刪除支援詢問中的個人資料，或提出其他相關請求，請寄信至<a href="mailto:hyeonseok45@gmail.com">hyeonseok45@gmail.com</a>。我們會在完成處理請求所必需的最少核實後，依適用法律處理。僅儲存在裝置上的遊戲紀錄可按第2節所述方法自行管理。</p>
